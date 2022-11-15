@@ -1,0 +1,111 @@
+h1,
+h2,
+h3,
+p,
+h4,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  font-size: 26px;
+
+  font-style: italic;
+  text-transform: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+}
+/* footer p {
+  font-size: 16px;
+} */
+#copyright {
+  font-size: 16px;
+}
+
+#author {
+  font-size: 20px;
+  font-style: italic;
+}
+.related-author {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.related {
+  list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  border-top: solid 5px #1098ad;
+  border-bottom: solid 5px #1098ad;
+}
+
+/* articlep: first-child {
+  color: red;
+} */
+
+/* li:nth-child(even) {
+  background-color: green;
+}  
+odd, even - четные, нечетные
+body {
+  background-color: green;
+} */
+
+/* pseudo-class
+
+ li:first-child {
+  color: red;
+}
+
+li:last-child {
+  font-style: italic;
+}*/
+
+a:link {
+  color: #1098ac;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777; */
+  color: #1098ac;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+a:active {
+  background-color: lightpink;
+  font-style: italic;
+}

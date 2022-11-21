@@ -37,6 +37,7 @@ h1 {
 h2 {
   font-size: 40px;
   margin-bottom: 40px;
+  position: relative;
 }
 
 h3 {
@@ -158,4 +159,26 @@ a:active {
   height: 50px;
   color: #444;
   border: black solid 2px;
+}
+
+/* psydo-elements
+h2::first-letter {
+  font-weight: 30;
+  font-style: italic;
+} 
+p::first-line {
+  color: red;
+}
+*/
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  font-size: 16px;
+  color: #444;
+  font-weight: bold;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  right: -20px;
+  top: -10px;
 }

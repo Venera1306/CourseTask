@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -39,6 +40,9 @@ h2 {
   margin-bottom: 40px;
   position: relative;
 }
+nav {
+  font-size: 18px;
+}
 
 h3 {
   font-size: 22px;
@@ -56,6 +60,7 @@ h4 {
   font-size: 22px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 li {
@@ -82,6 +87,10 @@ li {
 #author {
   font-size: 20px;
   font-style: italic;
+
+  padding-top: 20px;
+  float: left;
+  margin-left: 20px;
 }
 .related-author {
   font-weight: bold;
@@ -90,20 +99,31 @@ li {
 
 .related {
   list-style: none;
+  margin: 0;
 }
 
 aside {
   border-top: solid 5px #1098ad;
   border-bottom: solid 5px #1098ad;
   background-color: #f7f7f7;
-  padding: 50px 0;
+  padding: 50px 40px;
   width: 500px;
+  box-sizing: border-box;
 }
 .img-post {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
+.block a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.block a:link:last-child {
+  margin-right: 0;
+}
 /* articlep: first-child {
   color: red;
 } */
@@ -145,11 +165,11 @@ a:active {
   font-style: italic;
 }
 .container {
-  width: 800px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-.like {
+/* .like {
   position: absolute;
   font-size: 24px;
   right: 50px;
@@ -159,7 +179,7 @@ a:active {
   height: 50px;
   color: #444;
   border: black solid 2px;
-}
+} */
 
 /* psydo-elements
 h2::first-letter {
@@ -172,7 +192,7 @@ p::first-line {
 */
 h2::after {
   content: "TOP";
-  background-color: yellow;
+  background-color: #fcff5be8;
   font-size: 16px;
   color: #444;
   font-weight: bold;
@@ -181,4 +201,28 @@ h2::after {
   position: absolute;
   right: -20px;
   top: -10px;
+}
+.author-img {
+  float: left;
+  margin-bottom: 30px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
 }

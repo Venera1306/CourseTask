@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> </title>
+    <title>WEB</title>
     <link href="style.css" rel="stylesheet" />
   </head>
 
-  <div class="container">
-    <body>
+  <body>
+    <div class="container">
       <header class="main-header">
         <h1>📘 The Code Magazine</h1>
 
-        <nav>
+        <nav class="block">
           <a href="blog.html">Blog</a>
           <a href="#">Flexbox</a>
           <a href="#">Challenges</a>
@@ -29,9 +29,10 @@
             alt="picture of the author"
             width="64"
             height="64"
+            class="author-img"
           />
 
-          <p id="author">
+          <p id="author" class="author">
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
           <img
@@ -95,7 +96,7 @@
             <div>
               <img
                 src="images/related-1.jpg"
-                atl="a programmer"
+                alt="a programmer"
                 width="75"
                 height="75"
               />
@@ -105,7 +106,7 @@
           </li>
           <li>
             <div>
-              <img src="images/related-2.jpg" atl="ab" width="75" height="75" />
+              <img src="images/related-2.jpg" alt="ab" width="75" height="75" />
               <a href="#">Why is JS awesome</a>
               <p class="related-author">by Jonas</p>
             </div>
@@ -115,7 +116,7 @@
             <div>
               <img
                 src="images/related-3.jpg"
-                atl="a programmer"
+                alt="a programmer"
                 width="75"
                 height="75"
               />
@@ -128,7 +129,8 @@
       <footer>
         <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
       </footer>
-    </body>
-    <button class="like">🥰Like</button>
-  </div>
+
+      <button class="like">🥰Like</button>
+    </div>
+  </body>
 </html>
